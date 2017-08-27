@@ -8,7 +8,8 @@ div {
 }
 
 header {
-    height: 3rem;
+    height: 50px;
+    min-width: 700px;
     border: solid black 1px;
     display: flex;
     justify-content: space-between;
@@ -33,5 +34,14 @@ header span.bankrollValue {
 header button.reset {
     margin-right: 1rem;
     /*TODO style button*/
+}
+
+.gameArea {
+    min-width: 700px;
+}
+
+.dealerSide,
+.playerSide {
+    height: 50%;
 }
 
