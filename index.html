@@ -21,26 +21,42 @@
     <!-- Play area -->
     <div class="gameArea">
         <div class="dealerSide">
+
             <div class="cardZone">
 
             </div>
+
             <div class="handStatus">
                 <!--Displays Bust or Win notifications. Maybe prompt for split or double down here too...-->
             </div>
         </div>
 
         <div class="playerSide">
+
             <div class="userControls">
+
                 <div class="playerButtons">
-
+                    <button id="hit">Hit</button>
+                    <button id="stand">Stand</button>
+                    <button id="split">Split</button>
+                    <button id="double">Double Down</button>
+                    <button id="insure">Insurance</button>
                 </div>
-                <div class="betControl">
 
+                <div class="betBox">
+                    <!--ToDo at some point the input should not allow a number larger than the bankroll value to be added. I would imagine there is some JS magic to update a 'max' value-->
+                    <div class="betControl">
+                        <label for="betValue" id="betValueLabel">Current Bet:</label>
+                        <input id="betValue" type="number" value="5" min="5">
+                        <button id="bet">Bet!!</button>
+                    </div>
                 </div>
             </div>
+
             <div class="cardZone">
 
             </div>
+
         </div>
     </div>
 
