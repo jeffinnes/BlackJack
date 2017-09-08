@@ -106,6 +106,10 @@ header button.reset {
     margin: 1rem auto;
 }
 
+.betControl input {
+    width: auto;
+}
+
 footer {
     text-align: center;
     background-color: rgba(101, 42,  1,1);
